@@ -156,12 +156,11 @@
   .button--menu {
     display: none;
   }
-
 }
 @media (min-width: 320px) and (max-width: 600px) {
-    .header__about__img {
-        width: 275px;
-      }
+  .header__about__img {
+    width: 275px;
+  }
   .header__about__title {
     font-size: 19px;
     line-height: 60%;

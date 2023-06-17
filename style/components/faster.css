@@ -1,0 +1,108 @@
+.faster {
+  background-image: url('../../img/base.png');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 132px;
+  padding-top: 189px;
+}
+.faster__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 30px;
+}
+.faster__title__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.faster__title__list__description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 122%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.faster__title__list__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 122%;
+  color: #ffffff;
+}
+.faster__title__list__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #ffffff;
+}
+@media (max-width: 1024px) {
+  .faster__img__item {
+    max-width: 460px;
+  }
+}
+@media (min-width: 870px) and (max-width: 1024px) {
+  .faster__title__list__title {
+    font-size: 36px;
+    line-height: 99%;
+  }
+  .faster__title__list__text {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .faster__img__item {
+    max-width: 360px;
+  }
+}
+@media (min-width: 768px) and (max-width: 870px) {
+  .faster__title__list__title {
+    font-size: 24px;
+  }
+  .faster__title__list__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .faster__img__item {
+    max-width: 360px;
+  }
+}
+@media (max-width: 600px) {
+  .faster__title__list__description {
+    font-size: 9px;
+  }
+  .faster__title__list__title {
+    font-size: 16px;
+  }
+  .faster__title__list__text {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .faster__img__item {
+    max-width: 240px;
+  }
+  .button__btn--faster {
+    width: 135px;
+    height: 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .faster__img {
+        display: none;
+    } 
+    .faster__title__list__title {
+        font-size: 24px;
+      }
+      .faster__title__list__text {
+        font-size: 12px;
+        line-height: 15px;
+      }
+}

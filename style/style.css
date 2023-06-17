@@ -4,6 +4,7 @@
 @import url('./components/content.css');
 @import url('./components/process.css');
 @import url('./components/brands.css');
+@import url('./components/faster.css');
 
 * {
   margin: 0;

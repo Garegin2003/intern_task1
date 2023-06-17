@@ -3,6 +3,7 @@
 @import url('./components/cards.css');
 @import url('./components/content.css');
 @import url('./components/process.css');
+@import url('./components/brands.css');
 
 * {
   margin: 0;

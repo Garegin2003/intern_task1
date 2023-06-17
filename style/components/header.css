@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../../img/header_back.png');
+  background-image: url("../../img/header_back.png");
   background-repeat: no-repeat;
   margin-bottom: 194px;
 }
@@ -15,34 +15,8 @@
   margin-bottom: 93px;
   color: #ffffff;
 }
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 4.12px;
-}
-
-.items__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 32px;
-  list-style: none;
-}
-.items__list__link {
-  text-decoration: none;
-  color: #ffffff;
-}
-.logo__title {
-  display: flex;
-  align-items: center;
-  column-gap: 4.12px;
-}
-.items__list__item {
-  font-style: medium;
-  font-size: 16px;
-  line-height: 16px;
+.header__menu__icon {
+  display: none;
 }
 .header__about {
   display: flex;
@@ -51,7 +25,6 @@
   justify-content: center;
   row-gap: 8px;
 }
-
 .header__about__title {
   font-style: normal;
   font-weight: 500;
@@ -73,15 +46,47 @@
   width: 1045px;
   height: 693px;
 }
-.button {
-  margin-top: 32px;
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 4.12px;
+       column-gap: 4.12px;
 }
+.logo__title {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 4.12px;
+       column-gap: 4.12px;
+}
+
+.items__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  list-style: none;
+}
+.items__list__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.items__list__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.items__list__item {
+  font-style: medium;
+  font-size: 16px;
+  line-height: 16px;
+}
+
 .button--menu {
   margin-top: 0;
 }
-.header__menu__icon {
-  display: none;
-}
+
 @media (max-width: 1024px) {
   .logo__img {
     width: 50px;
@@ -135,9 +140,6 @@
     width: 540px;
     height: auto;
   }
-  .items {
-    display: none;
-  }
   .header__menu__icon {
     display: inline;
     width: 25px;
@@ -146,12 +148,15 @@
     font-size: 36px;
     line-height: 80%;
   }
+  .header__about__description {
+    font-size: 14px;
+  }
+  .items {
+    display: none;
+  }
   .button__btn--about {
     width: 164px !important;
     height: 48px !important;
-  }
-  .header__about__description {
-    font-size: 14px;
   }
   .button--menu {
     display: none;
@@ -165,7 +170,6 @@
     font-size: 19px;
     line-height: 60%;
   }
-
   .header__about__description {
     font-size: 11px;
   }
@@ -176,4 +180,4 @@
     width: 150px !important;
     height: 45px !important;
   }
-}
+}/*# sourceMappingURL=header.css.map */

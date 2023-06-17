@@ -2,16 +2,14 @@
 @import url('./components/button.css');
 @import url('./components/cards.css');
 @import url('./components/content.css');
-
+@import url('./components/process.css');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'DM Sans';
-   
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans';
 }
 body {
-    background-color: #e8e8ff;
+  background-color: #e8e8ff;
 }

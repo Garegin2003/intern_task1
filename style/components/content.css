@@ -24,30 +24,30 @@
   color: #3b3e43;
 }
 @media (max-width: 1024px) {
-    .content__title {
-        width: 750px !important;
-    }
+  .content__title {
+    width: 750px !important;
+  }
 }
 @media (max-width: 870px) {
-    .content__title__description{
-        font-size: 36px;
-        line-height: 36px;
-    }
-    .cards__item{
-        width: 250px;
-    }
+  .content__title__description {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .cards__item {
+    width: 250px;
+  }
 }
 @media (max-width: 768px) {
-    .content__title {
-        width: 521px !important;
-    }
+  .content__title {
+    width: 521px !important;
+  }
 }
 @media (max-width: 320px) {
-    .content__title {
-        width: 235px !important;
-    }
-    .content__title__description{
-        font-size: 20px;
-        line-height: 20px;
-    }
+  .content__title {
+    width: 235px !important;
+  }
+  .content__title__description {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }

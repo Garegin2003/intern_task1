@@ -95,14 +95,14 @@
   }
 }
 @media (min-width: 320px) and (max-width: 600px) {
-    .faster__img {
-        display: none;
-    } 
-    .faster__title__list__title {
-        font-size: 24px;
-      }
-      .faster__title__list__text {
-        font-size: 12px;
-        line-height: 15px;
-      }
+  .faster__img {
+    display: none;
+  }
+  .faster__title__list__title {
+    font-size: 24px;
+  }
+  .faster__title__list__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }

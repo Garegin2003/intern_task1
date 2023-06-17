@@ -5,6 +5,7 @@
 @import url('./components/process.css');
 @import url('./components/brands.css');
 @import url('./components/faster.css');
+@import url('./components/footer.css');
 
 * {
   margin: 0;

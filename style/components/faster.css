@@ -1,10 +1,11 @@
 .faster {
-  background-image: url('../../img/base.png');
+  background-image: url("../../img/base.png");
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 132px;
+  -moz-column-gap: 132px;
+       column-gap: 132px;
   padding-top: 189px;
 }
 .faster__title {
@@ -20,7 +21,6 @@
   justify-content: center;
   row-gap: 24px;
 }
-
 .faster__title__list__description {
   font-style: normal;
   font-weight: 700;
@@ -45,6 +45,7 @@
   line-height: 34px;
   color: #ffffff;
 }
+
 @media (max-width: 1024px) {
   .faster__img__item {
     max-width: 460px;
@@ -105,4 +106,4 @@
     font-size: 12px;
     line-height: 15px;
   }
-}
+}/*# sourceMappingURL=faster.css.map */

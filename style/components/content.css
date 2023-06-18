@@ -23,6 +23,7 @@
   line-height: 59px;
   color: #3b3e43;
 }
+
 @media (max-width: 1024px) {
   .content__title {
     width: 750px !important;
@@ -33,7 +34,7 @@
     font-size: 36px;
     line-height: 36px;
   }
-  .cards__item {
+  .cards__items {
     width: 250px;
   }
 }
@@ -50,4 +51,4 @@
     font-size: 20px;
     line-height: 20px;
   }
-}
+}/*# sourceMappingURL=content.css.map */

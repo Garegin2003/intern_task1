@@ -58,6 +58,11 @@ body {
   border-radius: 60px;
   border: #ffffff;
   cursor: pointer;
+  font-weight: 500;
+}
+.button:hover {
+  background-color: rgb(34, 109, 166) !important;
+  color: white;
 }
 
 @media (max-width: 1024px) {

@@ -555,8 +555,14 @@ body {
 }
 
 @media (max-width: 600px) {
+  .wrapper--column {
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
   .wrapper__image {
-    display: none;
+    width: 300px;
   }
 }
 
@@ -638,4 +644,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .wrapper__item--row {
+    flex-direction: column;
+  } 
 }

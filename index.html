@@ -1,293 +1,294 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./style/style.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__menu">
+  <body>
+    <header class="header">
       <div class="logo">
-        <img class="logo__img" src="./img/logo.png" alt="logoImg" />
+        <img class="logo__img" src="./img/logo.png" />
         <h2 class="logo__title">COMPANY</h2>
       </div>
-      <div class="items">
-        <ul class="items__list">
-          <li class="items__list__item">
-            <a class="items__list__link" href="#">Home</a>
-          </li>
-          <li class="items__list__item">
-            <a class="items__list__link" href="#">Your benefits</a>
-          </li>
-          <li class="items__list__item">
-            <a class="items__list__link" href="#">Our process</a>
-          </li>
-          <li class="items__list__item">
-            <a class="items__list__link" href="#">Our works</a>
-          </li>
-          <li class="items__list__item">
-            <a class="items__list__link" href="#">Testimonials</a>
-          </li>
-          <li class="items__list__item">
-            <a class="items__list__link" href="#">Start a project</a>
-          </li>
-        </ul>
+      <ul class="menu">
+        <li class="menu_item">
+          <a class="menu__link" href="#">Home</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu__link" href="#">Your benefits</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu__link" href="#">Our process</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu__link" href="#">Our works</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu__link" href="#">Testimonials</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu__link" href="#">Start a project</a>
+        </li>
+      </ul>
+      <button class="button button--small button--none">Get started</button>
+      <img class="icon" src="./img/main-menu.png" />
+    </header>
+
+    <section class="section">
+      <div class="wrapper">
+        <span class="wrapper__title">A Digital Product Design Agency</span>
+        <span class="wrapper__description"
+          >We are Creative and Professional Digital Agency</span
+        >
+        <button class="button button--margin">Get started</button>
+        <img class="wrapper__img" src="./img/img.png" />
       </div>
-      <div class="button button--menu">
-        <button class="button__btn button__btn--menu">Get started</button>
-      </div>
-      <img class="header__menu__icon" src="./img/main-menu.png" alt="menu" />
-    </div>
-    <div class="header__about">
-      <h1 class="header__about__title">A Digital Product Design Agency</h1>
-      <span class="header__about__description">We are Creative and Professional Digital Agency</span>
-      <div class="button button--about">
-        <button class="button__btn button__btn--about">Get started</button>
-      </div>
-      <img class="header__about__img" src="./img/img.png" alt="headerAbout" />
-    </div>
-  </header>
-  <div class="content">
-    <div class="content__title">
-      <p class="content__title__features">features</p>
-      <h2 class="content__title__description">
-        We are here to help <br />
-        you with
-      </h2>
-    </div>
-  </div>
-  <div class="cards">
-    <div class="cards__items">
-      <div class="cards__item">
-        <div class="cards__item__image cards__item__image--chart">
-          <img src="./img/Chart.png" alt="Chart" />
-        </div>
-        <h3 class="cards__item__title">Grow your business</h3>
-        <p class="cards__item__description">
-          The magic wand for success is in figuring out how to bring in the
-          profits and ensure the capacity needed to sustain that growth for
-          posterity.
-        </p>
-      </div>
-      <div class="cards__item">
-        <div class="cards__item__image cards__item__image--discount">
-          <img src="./img/Discount.png" alt="Discount" />
-        </div>
-        <h3 class="cards__item__title">Drive more sales</h3>
-        <p class="cards__item__description">
-          A potential customer, once lost, is hard to retain back. But keeping
-          some critical factors in mind, we can, for sure, use these loyalty
-          programs as customer retention tools.
-        </p>
-      </div>
-      <div class="cards__item">
-        <div class="cards__item__image cards__item__image--user">
-          <img src="./img/3 User.png" alt="User" />
-        </div>
-        <h3 class="cards__item__title">Handle by Expert</h3>
-        <p class="cards__item__description">
-          We know how we can develop deep, trust-based relationships with our
-          clients and work together more collaboratively.
-        </p>
-      </div>
-      <div class="cards__item">
-        <div class="cards__item__image cards__item__image--search">
-          <img src="./img/Search.png" alt="Search" />
-        </div>
-        <h3 class="cards__item__title">UX Research</h3>
-        <p class="cards__item__description">
-          UX research is the systematic study of target users and their
-          requirements, to add realistic contexts and insights to design
-          processes.
-        </p>
-      </div>
-      <div class="cards__item">
-        <div class="cards__item__image cards__item__image--graph">
-          <img src="./img/Graph.png" alt="Graph" />
-        </div>
-        <h3 class="cards__item__title">Business Audit</h3>
-        <p class="cards__item__description">
-          An audit examines your business's financial records to verify they
-          are accurate. This is done through a systematic review of your
-          transactions.
-        </p>
-      </div>
-      <div class="cards__item">
-        <div class="cards__item__image cards__item__image--bag">
-          <img src="./img/Bag 2.png" alt="Bag" />
-        </div>
-        <h3 class="cards__item__title">Data tracking</h3>
-        <p class="cards__item__description">
-          The hardware and software, which when used together allows you to
-          know where something is at any point in time.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="process">
-    <div class="process__title">
-      <div class="process__title__head">
-        <span class="process__title__head__txt"> how it works </span>
-        <h2 class="process__title__head__title">Our Process</h2>
-      </div>
-      <p class="process__title__description">
-        We know the best solution for all of your business ideas and we can
-        <br />help you solve all business problems
-      </p>
-    </div>
-    <div class="process__cards">
-      <div class="process__cards__item">
-        <div class="process__cards__item__img process__cards__item__img--image">
-          <img class="process__cards__item__img__image process__cards__item__img--img1" src="./img/Group 27022.png" />
-          <img class="process__cards__item__img__image process__cards__item__img--img2" src="./img/Group 27023.png" />
-          <img class="process__cards__item__img__image process__cards__item__img--img3" src="./img/audit.png" />
-        </div>
-        <div class="process__cards__item__title">
-          <div class="process__cards__item__title__img">
-            <img class="process__cards__item__title__img__image" src="./img/Search1.png" alt="" />
+    </section>
+
+    <section class="section section--blue">
+      <div class="wrapper wrapper--left">
+        <span class="wrapper__title wrapper__title--small wrapper__title--blue"
+          >features</span
+        >
+        <span
+          class="wrapper__title wrapper__title--medium wrapper__title--black"
+          >We are here to help you with</span
+        >
+        <div class="cards">
+          <div class="cards__item">
+            <img class="cards__img cards__img--orange" src="./img/Chart.png" />
+            <span class="cards__title">Grow your business</span>
+            <span class="cards__description"
+              >The magic wand for success is in figuring out how to bring in the
+              profits and ensure the capacity needed to sustain that growth for
+              posterity.</span
+            >
           </div>
-          <h3 class="process__cards__item__title__head">Business Audit</h3>
-          <p class="process__cards__item__title__title">
-            An audit examines your business's financial records to verify they
-            are accurate. This is done through a systematic review of your
-            transactions.
-          </p>
-        </div>
-      </div>
-      <div class="process__cards__item">
-        <div class="process__cards__item__img">
-          <img class="process__cards__item__img" src="./img/Group 27177.png" />
-        </div>
-        <div class="process__cards__item__title">
-          <div class="process__cards__item__title__img">
-            <img class="process__cards__item__title__img__image" src="./img/Folder.png" alt="" />
+          <div class="cards__item">
+            <img
+              class="cards__img cards__img--light-green"
+              src="./img/Discount.png"
+            />
+            <span class="cards__title">Drive more sales</span>
+            <span class="cards__description"
+              >A potential customer, once lost, is hard to retain back. But
+              keeping some critical factors in mind, we can, for sure, use these
+              loyalty programs as customer retention tools.</span
+            >
           </div>
-          <h3 class="process__cards__item__title__head">Data tracking</h3>
-          <p class="process__cards__item__title__title">
-            The hardware and software, which when used together allows you to
-            know where something is at any point in time
-          </p>
-        </div>
-      </div>
-      <div class="process__cards__item">
-        <div class="process__cards__item__img">
-          <img class="process__cards__item__img" src="./img/Group 27180.png" />
-        </div>
-        <div class="process__cards__item__title">
-          <div class="process__cards__item__title__img">
-            <img class="process__cards__item__title__img__image" src="./img/Document.png" alt="" />
+          <div class="cards__item">
+            <img class="cards__img cards__img--yellow" src="./img/3 User.png" />
+            <span class="cards__title">Handle by Expert</span>
+            <span class="cards__description"
+              >We know how we candevelop deep, trust-based relationships with
+              our clients, and work together more collaboratively</span
+            >
           </div>
-          <h3 class="process__cards__item__title__head">Data tracking</h3>
-          <p class="process__cards__item__title__title">
-            The hardware and software, which when used together allows you to
-            know where something is at any point in time
-          </p>
+          <div class="cards__item">
+            <img class="cards__img cards__img--green" src="./img/Search.png" />
+            <span class="cards__title">UX Research</span>
+            <span class="cards__description"
+              >UX research is the systematic study of target users and their
+              requirements, to add realistic contexts and insights to design
+              processes.</span
+            >
+          </div>
+          <div class="cards__item">
+            <img class="cards__img cards__img--purple" src="./img/Graph.png" />
+            <span class="cards__title">Business Audit</span>
+            <span class="cards__description"
+              >An audit examines your business's financial records to verify
+              they are accurate. This is done through a systematic review of
+              your transactions.
+            </span>
+          </div>
+          <div class="cards__item">
+            <img class="cards__img cards__img--blue" src="./img/Bag 2.png" />
+            <span class="cards__title">Data tracking</span>
+            <span class="cards__description"
+              >The hardware and software, which when used together allows you to
+              know where something is at any point in time</span
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="brands">
-    <div class="brands__title">
-      <p class="brands__title__head">BRANDS</p>
-      <h2 class="brands__title__description">
-        We work with thousands of the world’s <br />
-        leading brands
-      </h2>
-    </div>
-    <div class="brands__items">
-      <div class="brands__items__list">
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 20.png" />
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 19.png" />
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 17.png" />
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 21.png" />
-      </div>
-      <div class="brands__items__list">
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 22.png" />
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 23.png" />
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 24.png" />
-        <img class="brands__items__list__img" alt="logo" src="./img/Rectangle 25.png" />
-      </div>
-      <span class="brands__items__description">You're going to be in good company. We work with <br />
-        world's leading brands.</span>
-    </div>
-  </div>
-  <div class="faster">
-    <div class="faster__title">
-      <div class="faster__title__list">
-        <p class="faster__title__list__description">start with us</p>
-        <h2 class="faster__title__list__title">
-          Start working <br />
-          faster today
-        </h2>
-        <span class="faster__title__list__text">
-          We know the best solution for all of your <br />
-          business ideas and we can help you solve <br />
-          all business problems
-        </span>
-      </div>
-      <button class="button__btn button__btn--faster">Get started</button>
-    </div>
-    <div class="faster__img">
-      <img class="faster__img__item" src="./img/img2.png" alt="faster" />
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="footer__company-line">
-      <div class="footer__company-line__list">
-        <div class="logo logo--footer">
-          <img class="logo__img logo__img--footer" src="./img/logo.png" alt="logoImg" />
-          <h2 class="logo__title logo__title--footer">COMPANY</h2>
+    </section>
+
+    <section class="section section--purple">
+      <div class="wrapper">
+        <span class="wrapper__title wrapper__title--small">how it works</span>
+        <span class="wrapper__title wrapper__title--medium">Our Process</span>
+        <span class="wrapper__description wrapper__description--padding"
+          >We know the best solution for all of your business ideas and we can
+          help you <br />
+          solve all business problems</span
+        >
+        <div class="cards cards--column">
+          <div class="cards__item cards__item--long">
+            <div class="cards__big-img">
+              <img src="./img/Group 27177.png" />
+            </div>
+            <div class="cards__info">
+              <img
+                class="cards__img cards__img--blue"
+                src="./img/Search1.png"
+              />
+              <span class="cards__title">Business Audit</span>
+              <span class="cards__description"
+                >An audit examines your business's financial records to verify
+                they are accurate. This is done through a systematic review of
+                your transactions.
+              </span>
+            </div>
+          </div>
+          <div class="cards__item cards__item--long">
+            <div class="cards__big-img">
+              <img src="./img/Group 27177.png" />
+            </div>
+            <div class="cards__info">
+              <img
+                class="cards__img cards__img--purple"
+                src="./img/Folder.png"
+              />
+              <span class="cards__title">Data tracking</span>
+              <span class="cards__description"
+                >The hardware and software, which when used together allows you
+                to know where something is at any point in time</span
+              >
+            </div>
+          </div>
+          <div class="cards__item cards__item--long">
+            <div class="cards__big-img">
+              <img src="./img/Group 27180.png" />
+            </div>
+            <div class="cards__info">
+              <img
+                class="cards__img cards__img--light-blue"
+                src="./img/Document.png"
+              />
+              <span class="cards__title">Results</span>
+              <span class="cards__description"
+                >An audit examines your business's financial records to verify
+                they are accurate. This is done through a systematic review of
+                your transactions.
+              </span>
+            </div>
+          </div>
         </div>
-        <div class="items items--footer">
-          <ul class="items__list">
-            <li class="items__list__item">
-              <a class="items__list__link" href="#">Home</a>
+      </div>
+    </section>
+
+    <section class="section section--margin">
+      <div class="wrapper wrapper--row">
+        <span class="wrapper__title wrapper__title--small wrapper__title--blue"
+          >BRANDS</span
+        >
+        <span
+          class="wrapper__title wrapper__title--black wrapper__title--medium wrapper__title--center"
+          >We work with thousands of the world’s <br />
+          leading brands</span
+        >
+        <div class="cards cards--gap cards--row">
+          <div
+            class="cards__item cards__item--transparent cards__item--long cards__item--row"
+          >
+            <img src="./img/Rectangle 18.png" />
+            <img src="./img/Rectangle 20.png" />
+            <img src="./img/Rectangle 19.png" />
+            <img src="./img/Rectangle 17.png" />
+            <img src="./img/Rectangle 21.png" />
+          </div>
+          <div
+            class="cards__item cards__item--transparent cards__item--long cards__item--row"
+          >
+            <img src="./img/Rectangle 16.png" />
+            <img src="./img/Rectangle 22.png" />
+            <img src="./img/Rectangle 23.png" />
+            <img src="./img/Rectangle 24.png" />
+            <img src="./img/Rectangle 25.png" />
+          </div>
+        </div>
+        <span class="wrapper__description wrapper__description--black"
+          >You're going to be in good company. We work with world's leading
+          brands.</span
+        >
+      </div>
+    </section>
+
+    <section class="section section--dark-blue">
+      <div class="wrapper wrapper--column">
+        <div class="wrapper__info">
+          <span class="wrapper__title wrapper__title--small"
+            >start with us</span
+          >
+          <span class="wrapper__title wrapper__title--medium"
+            >Start working faster today</span
+          >
+          <span class="wrapper__description"
+            >We know the best solution for all of your business ideas and we can
+            help you solve all business problems</span
+          >
+        </div>
+        <img src="./img/img2.png" class="wrapper__image" />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper wrapper--margin wrapper--row">
+        <div class="wrapper__item">
+          <div class="logo logo--small">
+            <img class="logo__img" src="./img/logo.png" />
+            <h2 class="logo__title">COMPANY</h2>
+          </div>
+          <ul class="menu">
+            <li class="menu_item">
+              <a class="menu__link" href="#">Home</a>
             </li>
-            <li class="items__list__item">
-              <a class="items__list__link" href="#">Your benefits</a>
+            <li class="menu_item">
+              <a class="menu__link" href="#">Your benefits</a>
             </li>
-            <li class="items__list__item">
-              <a class="items__list__link" href="#">Our process</a>
+            <li class="menu_item">
+              <a class="menu__link" href="#">Our process</a>
             </li>
-            <li class="items__list__item">
-              <a class="items__list__link" href="#">Our works</a>
+            <li class="menu_item">
+              <a class="menu__link" href="#">Our works</a>
             </li>
-            <li class="items__list__item">
-              <a class="items__list__link" href="#">Testimonials</a>
+            <li class="menu_item">
+              <a class="menu__link" href="#">Testimonials</a>
             </li>
-            <li class="items__list__item">
-              <a class="items__list__link" href="#">Start a project</a>
+            <li class="menu_item">
+              <a class="menu__link" href="#">Start a project</a>
             </li>
           </ul>
+          <div class="social">
+            <img src="./img/Facebook.png" />
+            <img src="./img/Instagram.png" />
+            <img src="./img/Twitter.png" />
+          </div>
         </div>
-        <div class="footer__company-line__list__social">
-          <img class="footer__company-line__social__img" alt="soclialImg" src="./img/Facebook.png" />
-          <img class="footer__company-line__social__img" alt="soclialImg" src="./img/Instagram.png" />
-          <img class="footer__company-line__social__img" alt="soclialImg" src="./img/Twitter.png" />
+        <hr class="wrapper__line" />
+        <div class="wrapper__item wrapper__item--row">
+          <span class="wrapper__title wrapper__title--small"
+            >© 2021 Company</span
+          >
+          <div class="wrapper__privacy">
+            <span class="wrapper__title wrapper__title--small"
+              >Privacy policy</span
+            >
+            <span class="wrapper__title wrapper__title--small"
+              >Term of service</span
+            >
+          </div>
         </div>
       </div>
-      <hr class="footer__company-line__line">
-
-      <div class="footer__privacy">
-        <div class="footer__privacy__company">
-          <p class="footer__privacy__company__description">© 2021 Company</p>
-        </div>
-        <div class="footer__privacy__term">
-          <p class="footer__privacy__term__description">Privacy policy</p>
-          <p class="footer__privacy__term__description">Term of service</p>
-        </div>
-      </div>
-    </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

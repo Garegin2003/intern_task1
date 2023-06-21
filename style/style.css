@@ -10,7 +10,7 @@ body {
   background-image: url('../img/MaskGroup.png');
   background-repeat: no-repeat;
 }
- 
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -63,6 +63,11 @@ body {
 .button:hover {
   background-color: rgb(34, 109, 166) !important;
   color: white;
+}
+@media (max-width: 1408px) {
+  .wrapper__img {
+    width: 95%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -262,6 +267,10 @@ body {
   padding: 40px;
 }
 
+.cards__item--row {
+  width: 100%;
+}
+
 .cards__img {
   padding: 10px;
 }
@@ -352,10 +361,11 @@ body {
 }
 
 .cards__item--long {
-  width: 1170px;
+  max-width: 1170px;
   flex-direction: row;
   align-items: center;
   column-gap: 61px;
+  width: 100%;
 }
 .cards__info {
   display: flex;
@@ -562,7 +572,7 @@ body {
     justify-content: center;
   }
   .wrapper__image {
-    width: 300px;
+    max-width: 75%;
   }
 }
 
@@ -646,5 +656,5 @@ body {
   }
   .wrapper__item--row {
     flex-direction: column;
-  } 
+  }
 }

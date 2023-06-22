@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garegin2003/intern_task1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garegin2003/intern_task1/issues"
+  },
+  "homepage": "https://github.com/Garegin2003/intern_task1#readme"
+}
